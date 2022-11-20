@@ -9,6 +9,7 @@ import java.lang.management.*;
 import java.util.*;
 
 import static io.restassured.RestAssured.baseURI;
+import static io.restassured.path.json.JsonPath.given;
 
 public class Params {
 
@@ -37,7 +38,7 @@ public class Params {
                 .when().get("/{id}");
 
         // when negative testing, the status code is 404
-        Assertions.assertEquals(404, response.statusCode());
+        Assertions.assertEquals(response.statusCode(), 404);
 
         // validate error message
         Assertions.assertTrue(response.body().asString().contains("Not Found"));

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="second push">
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="third push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/JsonPathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/JsonPathZipCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/PathMethodReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week1/PathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week1/PathMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week1/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week1/Params.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,81 +45,81 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PathMethod.test3">
-    <configuration name="Params.pathParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JsonPathZipCode.test3">
+    <configuration name="JsonPathMethod.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week1" />
-      <option name="MAIN_CLASS_NAME" value="week1.Params" />
-      <option name="METHOD_NAME" value="pathParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathCydeoStudent.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week1" />
-      <option name="MAIN_CLASS_NAME" value="week1.PathCydeoStudent" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week1" />
-      <option name="MAIN_CLASS_NAME" value="week1.PathMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathMethod.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week1" />
-      <option name="MAIN_CLASS_NAME" value="week1.PathMethod" />
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathMethod" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathMethod.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPathMethod.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week1" />
-      <option name="MAIN_CLASS_NAME" value="week1.PathMethod" />
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathMethod" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPathZipCode.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathZipCode" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPathZipCode.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathZipCode" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPathZipCode.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathZipCode" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PathMethod.test3" />
-        <item itemvalue="JUnit.PathMethod.test2" />
-        <item itemvalue="JUnit.PathMethod.test1" />
-        <item itemvalue="JUnit.PathCydeoStudent.test1" />
-        <item itemvalue="JUnit.Params.pathParams" />
+        <item itemvalue="JUnit.JsonPathZipCode.test3" />
+        <item itemvalue="JUnit.JsonPathZipCode.test2" />
+        <item itemvalue="JUnit.JsonPathZipCode.test1" />
+        <item itemvalue="JUnit.JsonPathMethod.test3" />
+        <item itemvalue="JUnit.JsonPathMethod.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,11 @@
       <option name="presentableId" value="Default" />
       <updated>1668351062200</updated>
       <workItem from="1668351063832" duration="129000" />
-      <workItem from="1668357041180" duration="9565000" />
+      <workItem from="1668357041180" duration="9908000" />
+      <workItem from="1668441418040" duration="1903000" />
+      <workItem from="1668550528129" duration="31000" />
+      <workItem from="1668859172146" duration="1859000" />
+      <workItem from="1668955257902" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -165,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668369085451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third push">
+      <created>1668371264614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668371264614</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +200,7 @@
     <MESSAGE value="project created" />
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
-    <option name="LAST_COMMIT_MESSAGE" value="second push" />
+    <MESSAGE value="third push" />
+    <option name="LAST_COMMIT_MESSAGE" value="third push" />
   </component>
 </project>
