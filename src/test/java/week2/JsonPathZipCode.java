@@ -45,8 +45,8 @@ public class JsonPathZipCode {
 
         JsonPath jsonPath = response.jsonPath();
         System.out.println(jsonPath.getDouble("places[0].longitude"));
-//        jsonPath.getString(places[0]["place name"])
-
+        System.out.println(jsonPath.getString("places[0].'place name'"));
+        System.out.println(jsonPath.getString("places[0].'post code'"));
     }
 
     @Test
@@ -55,5 +55,10 @@ public class JsonPathZipCode {
                 .when().get("/us/va/fairfax");
 
         response.prettyPrint();
+        JsonPath jsonPath = response.jsonPath();
+//        System.out.println(jsonPath.getList("places"));
+        System.out.println(jsonPath.getList("places.findAll{it.latitude=='38.8458'}.longitude"));
+//        System.out.println(jsonPath.getString("places.longitude"));
+//        System.out.println(jsonPath.getString("places.latitude"));
     }
 }

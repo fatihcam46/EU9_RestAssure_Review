@@ -2,6 +2,7 @@ package week2;
 
 import io.restassured.*;
 import io.restassured.http.*;
+import io.restassured.path.json.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
@@ -35,10 +36,13 @@ public class PathMethodReview {
                 .when().get("/api/spartans");
 
 //        response.prettyPrint();
-        System.out.println(response.path("name").toString());
-        System.out.println(response.path("id").toString());
+//        System.out.println(response.path("name").toString());
+//        System.out.println(response.path("id").toString());
+//
+//        System.out.println(response.path("name[9]").toString());
 
-        System.out.println(response.path("name[9]").toString());
+        JsonPath jsonPath = response.jsonPath();
+        System.out.println(jsonPath.getList("findAll{it.id==10}.name"));
     }
 
     @Test
