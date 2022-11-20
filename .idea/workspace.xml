@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 2 first push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestMathcersPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 2 second push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/ResponseToMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/SpartanToClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/AllSpartans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/Spartan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/JsonPathZipCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/JsonPathZipCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/week2/PathMethodReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/PathMethodReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +48,8 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HamcrestWithSpartan.test4">
-    <configuration name="HamcrestMathcersPractice.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpartanToClass.test1">
+    <configuration name="PathMethodReview.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -55,46 +58,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestMathcersPractice" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestWithSpartan.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestWithSpartan" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestWithSpartan.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestWithSpartan" />
+      <option name="MAIN_CLASS_NAME" value="week2.PathMethodReview" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestWithSpartan.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanToClass.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +74,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestWithSpartan" />
+      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanToClass.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanToClass.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestWithSpartan.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanToClass.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +122,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestWithSpartan" />
+      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HamcrestWithSpartan.test4" />
-        <item itemvalue="JUnit.HamcrestWithSpartan.test3" />
-        <item itemvalue="JUnit.HamcrestWithSpartan.test2" />
-        <item itemvalue="JUnit.HamcrestWithSpartan.test1" />
-        <item itemvalue="JUnit.HamcrestMathcersPractice.test1" />
+        <item itemvalue="JUnit.SpartanToClass.test1" />
+        <item itemvalue="JUnit.SpartanToClass.test4" />
+        <item itemvalue="JUnit.SpartanToClass.test3" />
+        <item itemvalue="JUnit.SpartanToClass.test2" />
+        <item itemvalue="JUnit.PathMethodReview.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +152,7 @@
       <workItem from="1668441418040" duration="1903000" />
       <workItem from="1668550528129" duration="31000" />
       <workItem from="1668859172146" duration="1859000" />
-      <workItem from="1668955257902" duration="10264000" />
+      <workItem from="1668955257902" duration="16837000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668962080993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="week 2 second push">
+      <created>1668966459563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668966459563</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +219,7 @@
     <MESSAGE value="second push" />
     <MESSAGE value="third push" />
     <MESSAGE value="week 2 first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 2 first push" />
+    <MESSAGE value="week 2 second push" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 2 second push" />
   </component>
 </project>

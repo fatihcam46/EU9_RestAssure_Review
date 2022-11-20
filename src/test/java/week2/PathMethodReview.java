@@ -35,7 +35,7 @@ public class PathMethodReview {
         Response response = given().accept(ContentType.JSON)
                 .when().get("/api/spartans");
 
-//        response.prettyPrint();
+        response.prettyPrint();
 //        System.out.println(response.path("name").toString());
 //        System.out.println(response.path("id").toString());
 //
