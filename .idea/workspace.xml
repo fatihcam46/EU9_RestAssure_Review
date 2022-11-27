@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 2 second push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/ResponseToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/SpartanToClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/AllSpartans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/pojo/Spartan.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 2 third push">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/BasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/BookIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/PostMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/PutPatchDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/pojoPractice/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/pojoPractice/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/pojoPractice/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/pojoPractice/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/pojoPractice/StudentToPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/PathMethodReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/PathMethodReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,92 +42,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.SpartanToClass.test1">
-    <configuration name="PathMethodReview.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="week3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookIt.test1">
+    <configuration name="BasicAuth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.PathMethodReview" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanToClass.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.BasicAuth" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanToClass.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAuth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.BasicAuth" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanToClass.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAuth.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.BasicAuth" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanToClass.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookIt.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.SpartanToClass" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.BookIt" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutPatchDelete.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.PutPatchDelete" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpartanToClass.test1" />
-        <item itemvalue="JUnit.SpartanToClass.test4" />
-        <item itemvalue="JUnit.SpartanToClass.test3" />
-        <item itemvalue="JUnit.SpartanToClass.test2" />
-        <item itemvalue="JUnit.PathMethodReview.test2" />
+        <item itemvalue="JUnit.BookIt.test1" />
+        <item itemvalue="JUnit.BasicAuth.test3" />
+        <item itemvalue="JUnit.BasicAuth.test2" />
+        <item itemvalue="JUnit.BasicAuth.test1" />
+        <item itemvalue="JUnit.PutPatchDelete.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,9 @@
       <workItem from="1668441418040" duration="1903000" />
       <workItem from="1668550528129" duration="31000" />
       <workItem from="1668859172146" duration="1859000" />
-      <workItem from="1668955257902" duration="16837000" />
+      <workItem from="1668955257902" duration="17301000" />
+      <workItem from="1669279617184" duration="1244000" />
+      <workItem from="1669561255524" duration="7459000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -196,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668966459563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="week 2 third push">
+      <created>1668976648011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668976648011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +239,7 @@
     <MESSAGE value="third push" />
     <MESSAGE value="week 2 first push" />
     <MESSAGE value="week 2 second push" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 2 second push" />
+    <MESSAGE value="week 2 third push" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 2 third push" />
   </component>
 </project>
