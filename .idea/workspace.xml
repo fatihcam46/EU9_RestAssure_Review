@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 4 second push.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Junit5Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ParametrizedCSVSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ParametrizedMethodSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ParametrizedValueSourceTest.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 4 third push.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/ParametrizedCSVSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/ParametrizedCSVSourceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParametrizedCSVSourceTest.test1">
+  <component name="RunManager" selected="JUnit.ParametrizedCSVSourceTest.test2">
     <configuration name="ParametrizedCSVSourceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
@@ -67,6 +64,22 @@
       <option name="PACKAGE_NAME" value="week4" />
       <option name="MAIN_CLASS_NAME" value="week4.ParametrizedCSVSourceTest" />
       <option name="METHOD_NAME" value="test1(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedCSVSourceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ParametrizedCSVSourceTest" />
+      <option name="METHOD_NAME" value="test2(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizedValueSourceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizedValueSourceTest" />
-      <option name="METHOD_NAME" value="test2(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParametrizedValueSourceTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParametrizedCSVSourceTest.test2" />
         <item itemvalue="JUnit.ParametrizedCSVSourceTest.test1" />
         <item itemvalue="JUnit.ParametrizedMethodSourceTest.test2" />
         <item itemvalue="JUnit.ParametrizedMethodSourceTest.test1" />
         <item itemvalue="JUnit.ParametrizedValueSourceTest.test3" />
-        <item itemvalue="JUnit.ParametrizedValueSourceTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +161,7 @@
       <workItem from="1669561255524" duration="8895000" />
       <workItem from="1669616602917" duration="15000" />
       <workItem from="1670049194437" duration="840000" />
-      <workItem from="1670166448557" duration="8940000" />
+      <workItem from="1670166448557" duration="9382000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -236,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670172378998</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="week 4 third push.">
+      <created>1670175938318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670175938318</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +268,7 @@
     <MESSAGE value="week 3 first push." />
     <MESSAGE value="week 4 first push." />
     <MESSAGE value="week 4 second push." />
-    <option name="LAST_COMMIT_MESSAGE" value="week 4 second push." />
+    <MESSAGE value="week 4 third push." />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 third push." />
   </component>
 </project>
