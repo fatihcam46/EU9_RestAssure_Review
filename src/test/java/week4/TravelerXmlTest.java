@@ -4,16 +4,23 @@ import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.is;
 
 public class TravelerXmlTest {
+
+    @BeforeAll
+    public static void setUp(){
+        baseURI = "http://restapi.adequateshop.com";
+        basePath = "/api";
+    }
+
 
     @DisplayName("Traveler xml Test")
     @Test
     public void test1(){
         Response response = given().accept(ContentType.XML)
-                .when().get("http://restapi.adequateshop.com/api/Traveler")
+                .when().get("/Traveler")
                 .then().statusCode(200)
                 .body("TravelerinformationResponse.travelers.Travelerinformation[0].name",is("Developer"))
                 .extract().response();

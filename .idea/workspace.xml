@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 3 first push.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BookitTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/HRTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanAuthTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanNewBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanSpecTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/SpartanXmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/TravelerXmlTest.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="week 4 first push.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/JsonSchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ResponseTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/SslTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/singleSpartanSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allSpartanSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/postSpartanSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestWithSpartan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/TravelerXmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/TravelerXmlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +58,8 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TravelerXmlTest.test2">
-    <configuration name="SpartanXmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ResponseTime.test1">
+    <configuration name="JsonSchemaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -73,14 +68,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.SpartanXmlTest" />
+      <option name="MAIN_CLASS_NAME" value="week4.JsonSchemaTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanXmlTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonSchemaTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.SpartanXmlTest" />
+      <option name="MAIN_CLASS_NAME" value="week4.JsonSchemaTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanXmlTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonSchemaTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.SpartanXmlTest" />
+      <option name="MAIN_CLASS_NAME" value="week4.JsonSchemaTest" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravelerXmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseTime.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.TravelerXmlTest" />
+      <option name="MAIN_CLASS_NAME" value="week4.ResponseTime" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravelerXmlTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SslTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.TravelerXmlTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="week4.SslTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TravelerXmlTest.test2" />
-        <item itemvalue="JUnit.TravelerXmlTest.test1" />
-        <item itemvalue="JUnit.SpartanXmlTest.test3" />
-        <item itemvalue="JUnit.SpartanXmlTest.test2" />
-        <item itemvalue="JUnit.SpartanXmlTest.test1" />
+        <item itemvalue="JUnit.ResponseTime.test1" />
+        <item itemvalue="JUnit.SslTest.test1" />
+        <item itemvalue="JUnit.JsonSchemaTest.test3" />
+        <item itemvalue="JUnit.JsonSchemaTest.test2" />
+        <item itemvalue="JUnit.JsonSchemaTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +167,7 @@
       <workItem from="1669561255524" duration="8895000" />
       <workItem from="1669616602917" duration="15000" />
       <workItem from="1670049194437" duration="840000" />
-      <workItem from="1670166448557" duration="2125000" />
+      <workItem from="1670166448557" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -230,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669571337588</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="week 4 first push.">
+      <created>1670168750703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670168750703</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +258,7 @@
     <MESSAGE value="week 2 second push" />
     <MESSAGE value="week 2 third push" />
     <MESSAGE value="week 3 first push." />
-    <option name="LAST_COMMIT_MESSAGE" value="week 3 first push." />
+    <MESSAGE value="week 4 first push." />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 first push." />
   </component>
 </project>
