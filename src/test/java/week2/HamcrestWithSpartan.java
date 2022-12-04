@@ -26,9 +26,9 @@ public class HamcrestWithSpartan {
                 .when().get("/api/spartans/15")
                 .then()
                 .body("id",is(15)
-                ,"name",is("Meta")
+                ,"name",is("'Asya")
                 ,"gender",equalTo("Female")
-                ,"phone",is(1938695106));
+                ,"phone",is(7896541235L));
     }
 
     @Test
