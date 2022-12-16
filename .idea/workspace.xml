@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 5th push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/PojoClasses/SpartanXml.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 6th push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/ParametrizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/SchemaValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/SpecTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/SpectTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/singleSpartanSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/singleSpartanSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9_RestAssure_Review/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9_RestAssure_Review/src/test/java/BootCampReview",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_RestAssure_Review\src\test\java\BootCampReview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_RestAssure_Review\src\test\resources" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9_RestAssure_Review\src\test\java" />
     </key>
@@ -54,8 +59,8 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpartanXml.test1">
-    <configuration name="Auth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpecTest.test1">
+    <configuration name="ParametrizedTest.addSpartanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -64,14 +69,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.Auth" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.ParametrizedTest" />
+      <option name="METHOD_NAME" value="addSpartanTest(java.lang.String,java.lang.String,java.lang.Long)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Auth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTest.nameId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -80,14 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.Auth" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.ParametrizedTest" />
+      <option name="METHOD_NAME" value="nameId(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostAndOtherMethods.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.PostAndOtherMethods" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.ParametrizedTest" />
+      <option name="METHOD_NAME" value="test1(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostAndOtherMethods.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.PostAndOtherMethods" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.ParametrizedTest" />
+      <option name="METHOD_NAME" value="test2(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanXml.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +133,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.SpartanXml" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.SpecTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpartanXml.test1" />
-        <item itemvalue="JUnit.Auth.test2" />
-        <item itemvalue="JUnit.Auth.test1" />
-        <item itemvalue="JUnit.PostAndOtherMethods.test4" />
-        <item itemvalue="JUnit.PostAndOtherMethods.test3" />
+        <item itemvalue="JUnit.SpecTest.test1" />
+        <item itemvalue="JUnit.ParametrizedTest.addSpartanTest" />
+        <item itemvalue="JUnit.ParametrizedTest.nameId" />
+        <item itemvalue="JUnit.ParametrizedTest.test2" />
+        <item itemvalue="JUnit.ParametrizedTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +170,7 @@
       <workItem from="1670049194437" duration="840000" />
       <workItem from="1670166448557" duration="11667000" />
       <workItem from="1670721861520" duration="353000" />
-      <workItem from="1671201845160" duration="10188000" />
+      <workItem from="1671201845160" duration="12513000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -300,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671218252628</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bootcamp review 6th push">
+      <created>1671220361016</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671220361016</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +348,7 @@
     <MESSAGE value="bootcamp review 3rd push" />
     <MESSAGE value="bootcamp review 4th push" />
     <MESSAGE value="bootcamp review 5th push" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 5th push" />
+    <MESSAGE value="bootcamp review 6th push" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 6th push" />
   </component>
 </project>
