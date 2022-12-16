@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 1st push">
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 2nd push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/HamcrestMathcers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BootCampReview/RequestAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/RequestAndResponse.java" afterDir="false" />
     </list>
@@ -53,24 +55,8 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RequestAndResponse.test4">
-    <configuration name="MockServer.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.MockServer" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestAndResponse.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HamcrestMathcers.test1">
+    <configuration name="HamcrestMathcers.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.RequestAndResponse" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.HamcrestMathcers" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -134,13 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestAndResponse.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BootCampReview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BootCampReview" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.RequestAndResponse" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestMathcers.test1" />
+        <item itemvalue="JUnit.RequestAndResponse.test5" />
         <item itemvalue="JUnit.RequestAndResponse.test4" />
         <item itemvalue="JUnit.RequestAndResponse.test3" />
         <item itemvalue="JUnit.RequestAndResponse.test2" />
-        <item itemvalue="JUnit.RequestAndResponse.test1" />
-        <item itemvalue="JUnit.MockServer.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,7 @@
       <workItem from="1670049194437" duration="840000" />
       <workItem from="1670166448557" duration="11667000" />
       <workItem from="1670721861520" duration="353000" />
-      <workItem from="1671201845160" duration="3125000" />
+      <workItem from="1671201845160" duration="4555000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -271,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671207196584</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="bootcamp review 2nd push">
+      <created>1671208548001</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671208548001</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +312,7 @@
     <MESSAGE value="week 4 forth push." />
     <MESSAGE value="week 4 fifth push." />
     <MESSAGE value="bootcamp review 1st push" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 1st push" />
+    <MESSAGE value="bootcamp review 2nd push" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 2nd push" />
   </component>
 </project>

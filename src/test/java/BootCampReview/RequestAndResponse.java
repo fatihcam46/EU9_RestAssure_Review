@@ -94,7 +94,20 @@ public class RequestAndResponse {
     // provide params in a map
     @Test
     public void test5(){
+//        Response response = given().accept(ContentType.JSON)
+//                .and().queryParam("nameContains","b")
+//                .and().queryParam("gender","Female")
+//                .when().get("/api/spartans/search");
 
+        Map<String, Object> params = new HashMap<>();
+        params.put("nameContains","b");
+        params.put("gender","Female");
+
+        Response response = given().accept(ContentType.JSON)
+                .and().queryParams(params)
+                .when().get("/api/spartans/search");
+
+        response.prettyPrint();
     }
 
 
