@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 4th push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/PostAndOtherMethods.java" afterDir="false" />
+    <list default="true" id="97f0f6d7-2076-48e2-8bf1-71cbc0c4362f" name="Changes" comment="bootcamp review 5th push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BootCampReview/PojoClasses/SpartanXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +54,8 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostAndOtherMethods.test4">
-    <configuration name="POJO.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpartanXml.test1">
+    <configuration name="Auth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -63,30 +64,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.POJO" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostAndOtherMethods.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BootCampReview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.PostAndOtherMethods" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.Auth" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostAndOtherMethods.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Auth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BootCampReview" />
-      <option name="MAIN_CLASS_NAME" value="BootCampReview.PostAndOtherMethods" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.Auth" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -134,13 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanXml.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BootCampReview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BootCampReview" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.SpartanXml" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanXml.test1" />
+        <item itemvalue="JUnit.Auth.test2" />
+        <item itemvalue="JUnit.Auth.test1" />
         <item itemvalue="JUnit.PostAndOtherMethods.test4" />
         <item itemvalue="JUnit.PostAndOtherMethods.test3" />
-        <item itemvalue="JUnit.PostAndOtherMethods.test2" />
-        <item itemvalue="JUnit.PostAndOtherMethods.test1" />
-        <item itemvalue="JUnit.POJO.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,7 @@
       <workItem from="1670049194437" duration="840000" />
       <workItem from="1670166448557" duration="11667000" />
       <workItem from="1670721861520" duration="353000" />
-      <workItem from="1671201845160" duration="8170000" />
+      <workItem from="1671201845160" duration="10188000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671215863449</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="bootcamp review 5th push">
+      <created>1671218252628</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671218252628</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +335,7 @@
     <MESSAGE value="bootcamp review 2nd push" />
     <MESSAGE value="bootcamp review 3rd push" />
     <MESSAGE value="bootcamp review 4th push" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 4th push" />
+    <MESSAGE value="bootcamp review 5th push" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootcamp review 5th push" />
   </component>
 </project>
