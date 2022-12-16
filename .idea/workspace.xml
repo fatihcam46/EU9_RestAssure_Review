@@ -53,7 +53,7 @@
       <recent name="week3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RequestAndResponse.test2">
+  <component name="RunManager" selected="JUnit.RequestAndResponse.test4">
     <configuration name="MockServer.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
@@ -65,22 +65,6 @@
       <option name="PACKAGE_NAME" value="week4" />
       <option name="MAIN_CLASS_NAME" value="week4.MockServer" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParametrizedCSVFileSourceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9_RestAssure_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizedCSVFileSourceTest" />
-      <option name="METHOD_NAME" value="test1(java.lang.String,java.lang.String,java.lang.Long)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,17 +102,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanSpecTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestAndResponse.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9_RestAssure_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="BootCampReview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.SpartanSpecTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="BootCampReview" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.RequestAndResponse" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestAndResponse.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9_RestAssure_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BootCampReview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BootCampReview" />
+      <option name="MAIN_CLASS_NAME" value="BootCampReview.RequestAndResponse" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RequestAndResponse.test4" />
+        <item itemvalue="JUnit.RequestAndResponse.test3" />
         <item itemvalue="JUnit.RequestAndResponse.test2" />
         <item itemvalue="JUnit.RequestAndResponse.test1" />
         <item itemvalue="JUnit.MockServer.test1" />
-        <item itemvalue="JUnit.SpartanSpecTest.test1" />
-        <item itemvalue="JUnit.ParametrizedCSVFileSourceTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1670049194437" duration="840000" />
       <workItem from="1670166448557" duration="11667000" />
       <workItem from="1670721861520" duration="353000" />
-      <workItem from="1671201845160" duration="1992000" />
+      <workItem from="1671201845160" duration="3125000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1668351165119</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671201921917</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="bootcamp review 1st push">
+      <created>1671207196584</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671207196584</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
