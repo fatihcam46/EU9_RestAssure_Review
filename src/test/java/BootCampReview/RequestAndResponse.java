@@ -101,17 +101,14 @@ public class RequestAndResponse {
 //                .and().queryParam("nameContains","b")
 //                .and().queryParam("gender","Female")
 //                .when().get("/api/spartans/search");
-
+//if we have ten line of parameter:  so that we use map
         Map<String, Object> params = new HashMap<>();
         params.put("nameContains","b");  //contains b
         params.put("gender","Female");   // gender female
 
         Response response = given().accept(ContentType.JSON)
-                .and().queryParams(params)
+                .and().queryParams(params)                //queryParams(params)   multiple query param at the same time
                 .when().get("/api/spartans/search");
-
-        response.prettyPrint();
+        response.prettyPrint();//printing on the console
     }
-
-
 }

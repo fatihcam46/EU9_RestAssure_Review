@@ -1,5 +1,5 @@
 package BootCampReview;
-
+//4
 import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
@@ -16,21 +16,35 @@ public class ToCollection extends TestBase{
                 .when().get("/api/spartans/30");
 
         response.prettyPrint();
-
+/*    response:
+{
+    "id": 30,
+    "name": "Melania",
+    "gender": "Female",
+    "phone": 8916944276
+}                   lets write map class>>>
+ */
         Map<String, Object> s30 = response.as(Map.class);
-        System.out.println(s30);
+        System.out.println(s30);//{id=30, name=Melania, gender=Female, phone=8916944276}
 
-        System.out.println(s30.get("name"));
+        System.out.println(s30.get("name"));//Melania
     }
-
+//-------------------------------------------------
     @Test
     public void test2(){
         Response response = given().accept(ContentType.JSON)
                 .when().get("/api/spartans");
-
-        List<Map<String, Object>> allSpartans = response.as(List.class);
         response.prettyPrint();
+ /*
+ [
+    {
+        "id": 1,
+        "name": "Lavonne",
+        "gender": "Male",.....
+  */
+        List<Map<String, Object>> allSpartans = response.as(List.class);
         System.out.println(allSpartans);
+        //[{id=1, name=Lavonne, gender=Male, phone=1236547892},....
 
     }
 }

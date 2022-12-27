@@ -1,12 +1,19 @@
 package BootCampReview.PojoClasses;
-
+//6      //json --> java object   deserialization    example
 public class SingleSpartan {
-
+/*   change  json to java      look POJO class
+{
+    "id": 50,
+    "name": "Jennica",
+    "gender": "Female",
+    "phone": 6986436734
+}
+ */
     private int id;
     private String name;
     private String gender;
     private Long phone;
-
+//1-getter and setter  //toString //
     public int getId() {
         return id;
     }
